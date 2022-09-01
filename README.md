@@ -83,3 +83,8 @@ $ git branch -M master
 $ git remote add origin http://github.com....
 $ git push -u origin master
 ```
+## CLI nest
+```
+nest generate moudle name_module
+nest generate controller name_module
+```
