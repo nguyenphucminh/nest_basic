@@ -9,11 +9,11 @@ import { PostModule } from './post/post.module';
   imports: [
     PostModule,
     ConfigModule.forRoot(),
-    MongooseModule.forRoot(process.env.MONGOBD_URL,{
+    MongooseModule.forRoot(process.env.MONGODB_URL, {
       useNewUrlParser: true,
       useFindAndModify: false,
       useCreateIndex: true,
-    })
+    }),
   ],
   controllers: [AppController],
   providers: [AppService],
