@@ -88,3 +88,4 @@ $ git push -u origin master
 nest generate moudle name_module
 nest generate controller name_module
 ```
+$ npm install jsonwebtoken
